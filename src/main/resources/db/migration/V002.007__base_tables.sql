@@ -1,0 +1,12 @@
+CREATE TABLE certifications(
+  id BIGINT(20) AUTO_INCREMENT PRIMARY KEY,
+  user_id BIGINT(20) NOT NULL,
+  created_date BIGINT(20) NOT NULL,
+  updated_date BIGINT(20) DEFAULT NULL,
+  name VARCHAR(255) DEFAULT NULL,
+  authority VARCHAR(255) DEFAULT NULL,
+  license_number VARCHAR(255) DEFAULT NULL,
+  acquired_date BIGINT(20) DEFAULT NULL,
+  expired_date BIGINT(20) DEFAULT NULL,
+  website VARCHAR(255) DEFAULT NULL
+);

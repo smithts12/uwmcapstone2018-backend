@@ -1,0 +1,8 @@
+ALTER TABLE contacts
+ADD user_id BIGINT(20) NOT NULL;
+
+ALTER TABLE companies
+ADD user_id BIGINT(20) NOT NULL;
+
+ALTER TABLE positions
+ADD user_ID BIGINT(20) NOT NULL;
